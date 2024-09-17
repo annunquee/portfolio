@@ -1,0 +1,25 @@
+{% endblock %}
+{% extends 'layout.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h2>Latest Projects</h2>
+<div class="gallery-container">
+    <div class="gallery" id="project-gallery">
+        {% for project in projects %}
+        <div class="gallery-item">
+            <a href="{{ url_for('project_details', project_id=project.id) }}">
+                <img src="{{ url_for('static', filename=project.kids_store.jpg) }}" alt="{{ kids_store }}">
+        <div class="gallery-item">
+            <a href="{{ url_for('project_details', project_id=project.id) }}">
+                <img src="{{ url_for('static', filename=project.music_concert.jpg )}}" alt="{{ music_concert}}">
+                <p>{{ project.title }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    <button id="prev-btn">Prev</button>
+    <button id="next-btn">Next</button>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}

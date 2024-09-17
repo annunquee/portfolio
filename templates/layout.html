@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Portfolio Website{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            {% include 'includes/nav.html' %}
+        </header>
+        
+        <main>
+            <div class="content">
+                {% block content %}{% endblock %}
+            </div>
+        </main>
+        
+        <footer>
+            {% include 'includes/footer.html' %}
+        </footer>
+    </div>
+</body>
+</html>
