@@ -1,5 +1,0 @@
-def load_projects():
-    with open('projects.json') as f:
-        project_data = json.load(f)
-        projects = [Project(**proj) for proj in project_data]
-    return projects

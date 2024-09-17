@@ -1,4 +1,3 @@
-{% endblock %}
 {% extends 'layout.html' %}
 {% block title %}Home{% endblock %}
 {% block content %}
@@ -8,10 +7,7 @@
         {% for project in projects %}
         <div class="gallery-item">
             <a href="{{ url_for('project_details', project_id=project.id) }}">
-                <img src="{{ url_for('static', filename=project.kids_store.jpg) }}" alt="{{ kids_store }}">
-        <div class="gallery-item">
-            <a href="{{ url_for('project_details', project_id=project.id) }}">
-                <img src="{{ url_for('static', filename=project.music_concert.jpg )}}" alt="{{ music_concert}}">
+                <img src="{{ url_for('static', filename=project.thumbnail) }}" alt="{{ project.title }}">
                 <p>{{ project.title }}</p>
             </a>
         </div>
