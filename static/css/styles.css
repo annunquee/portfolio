@@ -1,10 +1,14 @@
 body {
-    background-color: rgb(226, 43, 141);
+    background-color:palegreen;
     font-family: 'Times New Roman', Times, serif;
 }
 
 nav {
     list-style-type: none;
+}
+
+ul {
+    list-style: none;
 }
 
 nav ul {
@@ -21,7 +25,7 @@ nav ul li a {
 }
 
 a:hover {
-    color: bisque;
+    color:burlywood;
 }
 
 .gallery-container {
@@ -59,8 +63,8 @@ button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #333;
-    color: white;
+    background-color: saddlebrown;
+    color:lemonchiffon;
     border: none;
     padding: 10px;
     cursor: pointer;

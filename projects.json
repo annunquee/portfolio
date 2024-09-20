@@ -22,7 +22,7 @@
         "title": "Weather App",
         "module": "React",
         "description": "A weather application that provides real-time weather information for any location around the world. Users can search for cities and receive updates on temperature, humidity, wind speed, and weather conditions. This app uses the OpenWeather API for data retrieval and displays the information in a visually appealing, responsive interface. The app also includes features like recent search history and customizable location settings.",
-        "thumbnail": "images/project3.jpg",
+        "thumbnail": "images/home_decor.jpg",
         "date": "2023-10-10",
         "technologies": "React, JavaScript, OpenWeather API"
     },
@@ -31,7 +31,7 @@
         "title": "Social Media Dashboard",
         "module": "Vue.js",
         "description": "A social media analytics dashboard that allows users to monitor multiple social media accounts in one place. The dashboard provides real-time data visualization, showing user engagement metrics such as likes, comments, and shares. Users can track performance across different platforms and view historical data to identify trends. The dashboard is designed for simplicity and ease of use, providing a seamless experience across devices.",
-        "thumbnail": "images/project4.jpg",
+        "thumbnail": "images/cinema.jpg",
         "date": "2023-09-20",
         "technologies": "Vue.js, Tailwind CSS, Firebase"
     },
@@ -40,7 +40,7 @@
         "title": "Chat Application",
         "module": "Socket.io",
         "description": "A real-time chat application that allows users to communicate in private or public chat rooms. The app leverages WebSockets for instant message delivery, ensuring a smooth user experience with minimal delay. It also includes features such as typing indicators, message history, and user authentication. This project showcases real-time interaction using the Socket.io library in conjunction with Node.js.",
-        "thumbnail": "images/project5.jpg",
+        "thumbnail": "images/movies.jpg",
         "date": "2023-08-10",
         "technologies": "Node.js, Socket.io, Express"
     },
@@ -49,7 +49,7 @@
         "title": "Task Manager App",
         "module": "Angular",
         "description": "A task management application that helps teams organize, assign, and track the progress of tasks. Users can create projects, assign tasks to team members, set deadlines, and monitor the status of tasks in real time. The app includes various views such as Kanban, calendar, and list views, making it versatile for different workflows. It also supports notifications and reminders to keep users updated on task deadlines.",
-        "thumbnail": "images/project6.jpg",
+        "thumbnail": "images/python_project.jpg",
         "date": "2023-07-05",
         "technologies": "Angular, Material UI, Node.js"
     },
@@ -58,7 +58,7 @@
         "title": "Fitness Tracker",
         "module": "React Native",
         "description": "A mobile fitness tracking app that allows users to monitor their daily physical activities, such as steps taken, distance covered, and calories burned. The app also includes features for tracking workouts, setting goals, and monitoring progress over time. It integrates with device sensors to provide accurate fitness data and offers a user-friendly interface for customizing fitness goals and viewing detailed reports.",
-        "thumbnail": "images/project7.jpg",
+        "thumbnail": "images/company.jpg",
         "date": "2023-06-15",
         "technologies": "React Native, Expo, Firebase"
     },
@@ -67,7 +67,7 @@
         "title": "Blog Platform",
         "module": "WordPress",
         "description": "A customizable blog platform built with WordPress. It features an intuitive content management system (CMS) that allows users to create, edit, and manage blog posts and pages. The platform includes built-in SEO tools, social media integration, and a responsive design that ensures a seamless experience on both desktop and mobile devices. The project also includes customization options for themes and plugins, making it versatile for different user needs.",
-        "thumbnail": "images/project8.jpg",
+        "thumbnail": "images/hospital.jpg",
         "date": "2023-05-22",
         "technologies": "PHP, WordPress, MySQL"
     },
