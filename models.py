@@ -1,4 +1,4 @@
-#models.py or inside app.py
+# models.py 
 class Project:
     def __init__(self, id, title, module, description, thumbnail, date, technologies):
         self.id = id

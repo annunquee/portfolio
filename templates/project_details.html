@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ project.title }}{% endblock %}
+
+{% block content %}
+    <div class="container project-container">
+        <h1>{{ project.title }}</h1>
+        <img src="{{ url_for('static', filename=project.thumbnail) }}" alt="{{ project.title }}">
+        <p><strong>Module:</strong> {{ project.module }}</p>
+        <p><strong>Description:</strong> {{ project.description }}</p>
+        <p><strong>Date:</strong> {{ project.date }}</p>
+        <p><strong>Technologies Used:</strong> {{ project.technologies }}</p>
+    </div>
+{% endblock %}

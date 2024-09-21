@@ -3,5 +3,15 @@
 {% block title %}Projects{% endblock %}
 
 {% block content %}
-<h2>All Projects</h2>
-{% endblock %}
+<div class="container projects-list">
+    <h1>All Projects</h1>
+    <ul class="project-list">
+        {% for project in projects %}
+            <li class="project-list-item" onclick="window.location.href='/project/{{ project.id }}'">
+                <h3>{{ project.title }}</h3>
+                <p><strong>Module:</strong> {{ project.module }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
