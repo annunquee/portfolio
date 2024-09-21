@@ -70,68 +70,6 @@
         "thumbnail": "images/hospital.jpg",
         "date": "2023-05-22",
         "technologies": "PHP, WordPress, MySQL"
-    },
-    {
-        "id": 9,
-        "title": "Online Learning System",
-        "module": "Moodle",
-        "description": "An online learning platform designed to help educators create and deliver courses to students. The system includes features for course management, quizzes, assessments, and a gradebook for tracking student progress. This project integrates multiple learning formats, including video lectures, reading materials, and interactive quizzes. It also supports collaboration through discussion forums and group projects, making it an all-in-one solution for remote education.",
-        "thumbnail": "images/project9.jpg",
-        "date": "2023-04-10",
-        "technologies": "Moodle, PHP, MySQL"
-    },
-    {
-        "id": 10,
-        "title": "Video Streaming Platform",
-        "module": "Ruby on Rails",
-        "description": "A video streaming platform similar to YouTube that allows users to upload, share, and watch videos. The platform includes features for video encoding, categorization, and search, as well as support for user accounts and playlists. It also integrates with a content delivery network (CDN) for fast video streaming and ensures secure file uploads. This project showcases the ability to handle large amounts of data and provide a scalable, high-performance user experience.",
-        "thumbnail": "images/project10.jpg",
-        "date": "2023-03-12",
-        "technologies": "Ruby on Rails, Postgres, FFmpeg"
-    },
-    {
-        "id": 11,
-        "title": "Personal Budgeting App",
-        "module": "Flutter",
-        "description": "A cross-platform personal budgeting app that helps users track their income, expenses, and savings. The app allows users to set financial goals, categorize expenses, and generate detailed reports on their financial health. It includes features like recurring transactions, bill reminders, and visual charts to show spending habits over time. The app is designed for both Android and iOS platforms, ensuring a smooth user experience across devices.",
-        "thumbnail": "images/project11.jpg",
-        "date": "2023-02-18",
-        "technologies": "Flutter, Dart, SQLite"
-    },
-    {
-        "id": 12,
-        "title": "Recipe Finder",
-        "module": "React",
-        "description": "A recipe search app that allows users to find recipes based on ingredients they have on hand. The app includes filters for dietary preferences, cooking time, and difficulty level. It integrates with external APIs to fetch thousands of recipes and displays the results in a user-friendly interface. Users can save their favorite recipes, create shopping lists, and share recipes with friends, making it an essential tool for anyone who enjoys cooking.",
-        "thumbnail": "images/project12.jpg",
-        "date": "2023-01-25",
-        "technologies": "React, API integration, CSS"
-    },
-    {
-        "id": 13,
-        "title": "Music Streaming App",
-        "module": "Node.js",
-        "description": "A music streaming service that allows users to listen to music, create playlists, and follow their favorite artists. The app supports user-generated playlists and integrates with various APIs to provide access to a vast music library. It also features recommendations based on user listening habits and a sleek, intuitive interface. The backend is built with Node.js and MongoDB to ensure fast and scalable performance.",
-        "thumbnail": "images/project13.jpg",
-        "date": "2022-12-15",
-        "technologies": "Node.js, MongoDB, Express"
-    },
-    {
-        "id": 14,
-        "title": "Photography Portfolio",
-        "module": "Gatsby.js",
-        "description": "A portfolio website designed for photographers to showcase their work. The site uses Gatsby.js for fast, static page generation and integrates with GraphQL for content management. The portfolio includes galleries, categories, and detailed project pages, providing an elegant way for photographers to present their work. It also features a custom backend for easy content management and a responsive design for viewing across different devices.",
-        "thumbnail": "images/project14.jpg",
-        "date": "2022-11-05",
-        "technologies": "Gatsby.js, GraphQL, Contentful"
-    },
-    {
-        "id": 15,
-        "title": "Car Rental System",
-        "module": "Laravel",
-        "description": "An online car rental system that allows customers to browse available vehicles, make reservations, and manage their rentals. The system includes features for vehicle management, rental history, and customer support. The admin interface allows for easy management of inventory and bookings. This project emphasizes user experience with a responsive design and secure payment processing, making it a comprehensive solution for car rental businesses.",
-        "thumbnail": "images/project15.jpg",
-        "date": "2022-10-20",
-        "technologies": "Laravel, MySQL, Bootstrap"
     }
+   
 ]

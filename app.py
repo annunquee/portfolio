@@ -1,6 +1,7 @@
 from flask import Flask, render_template, jsonify, request
 import json
 from models import Project  # Import the Project class
+from models import Skill
 from dotenv import load_dotenv
 import os
 
@@ -43,12 +44,21 @@ def contact():
 # Route for the projects page
 @app.route('/projects')
 def projects():
+    projects = load_projects()
     return render_template('projects.html', projects=projects)
 
-#Route for the about page
+
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    # Load skills from the JSON file
+    skills = Skill.load_from_json('skills.json')
+    return render_template('about.html', skills=skills)
+
+@app.route('/skill/<int:skill_id>')
+def skill_details(skill_id):
+    skills = Skill.load_from_json('skills.json')
+    skill = skills[skill_id - 1]  # Convert 1-based loop index to 0-based Python list
+    return render_template('skill_details.html', skill=skill)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,0 +1,40 @@
+[
+    {
+    "id": 1,  
+    "title": "python Programming",
+    "description": "Proficiency in developing applications using vs code.",
+    "technology": "python"
+    },
+    {
+    "id": 2,    
+    "title": "Teamwork",
+    "description": "Ability to work collaboratively in a team setting.",
+    "technology": null
+    },
+    {
+    "id": 3,    
+    "title": "JavaScript Development",
+    "description": "Expertise in developing dynamic web applications with JavaScript.",
+    "technology": "JavaScript"
+    },
+    
+    {
+    "id": 4,    
+    "title": "Problem Solving",
+    "description": "Ability to analyze and solve complex problems.",
+    "technology": null
+    },
+    {
+    "id": 5,    
+    "title": "Web Development",
+    "description": "Expertise in building and maintaining websites using HTML, CSS, and JavaScript.",
+    "technology": "HTML/CSS/JavaScript"
+    },
+
+    {
+        "id": 6,    
+        "title": "data base",
+        "description": "good in building and maintaining data base structure.",
+        "technology": "mysql"
+        }
+]

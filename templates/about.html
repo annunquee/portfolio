@@ -1,7 +1,28 @@
 {% extends 'layout.html' %}
 
-{% block title %}About{% endblock %}
+{% block title %}About Me{% endblock %}
 
 {% block content %}
-<h2>About Projects</h2>
-{% endblock %}
+<div id="profile-info" class="profile-section">
+    <h2 class="profile-heading">About Me</h2>
+    <div class="profile-details">
+        <img src="{{ url_for('static', filename='images/profile.jpeg') }}" alt="Profile Image" class="profile-image">
+        <div class="profile-text">
+            <p class="profile-name"><strong>Name:</strong> Queen j Annunziata</p>
+            <p class="profile-qualification"><strong>Qualification:</strong> Diploma</p>
+            <p class="profile-job"><strong>Current Job:</strong> Software developer</p>
+        </div>
+    </div>
+</div>
+
+<div id="skills-list" class="skills-section">
+    <h3 class="skills-heading">Skills</h3>
+    <ul class="skills-list">
+        {% for skill in skills %}
+        <li class="skill-item">
+            <a href="{{ url_for('skill_details', skill_id=loop.index) }}" class="skill-link">{{ skill.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

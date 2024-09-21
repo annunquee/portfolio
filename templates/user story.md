@@ -1,6 +1,7 @@
  link to github: https://github.com/annunquee/portfolio.git
 
  link to render.com: https://dashboard.render.com/web/srv-crkpp3btq21c73depek0/deploys/dep-crmpjti3esus7381htbg
+ Link to my site on render.com: https://portfolio-l8tk.onrender.com
 
  Type 127 and enter on chrom to check the site.
 
