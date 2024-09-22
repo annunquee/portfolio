@@ -4,72 +4,72 @@
         "title": "Portfolio Website",
         "module": "Flask",
         "description": "A portfolio website built with Flask and Jinja. This project showcases personal and professional achievements, including completed projects and skills. It features a responsive design and includes dynamic content rendered through Flask routes and templates. The site is designed to be easily updated with new projects and information using a backend admin interface.",
-        "thumbnail": "images/kids_store.jpg",
-        "date": "2024-01-01",
+        "thumbnail": "porfolio.jpeg",
+        "date": "2024-09-09",
         "technologies": "Flask, HTML, CSS, JavaScript"
     },
     {
         "id": 2,
-        "title": "E-Commerce App",
-        "module": "Django",
+        "title": "kids store",
+        "module": "java script",
         "description": "An e-commerce application that provides users with the ability to browse products, add items to the cart, and complete purchases using a secure payment gateway. The app also includes a comprehensive admin dashboard for managing products, orders, and customers. This project emphasizes security and scalability, allowing it to handle a growing user base while ensuring data protection and smooth transaction processing.",
-        "thumbnail": "images/music_concert.jpg",
-        "date": "2023-11-15",
-        "technologies": "Django, Bootstrap, Stripe API"
+        "thumbnail": "images/kids_store.jpg",
+        "date": "2024-07-15",
+        "technologies": "React, JavaScript, HTML, CSS OpenWeather API"
     },
     {
         "id": 3,
-        "title": "Weather App",
-        "module": "React",
-        "description": "A weather application that provides real-time weather information for any location around the world. Users can search for cities and receive updates on temperature, humidity, wind speed, and weather conditions. This app uses the OpenWeather API for data retrieval and displays the information in a visually appealing, responsive interface. The app also includes features like recent search history and customizable location settings.",
-        "thumbnail": "images/home_decor.jpg",
-        "date": "2023-10-10",
-        "technologies": "React, JavaScript, OpenWeather API"
+        "title": "music_concer",
+        "module": "Web Development",
+        "description": "A concert website. with list of artist, their music, biography, awards, location and time of concert.",
+        "thumbnail": "images/music_concert.jpg",
+        "date": "2024-05-10",
+        "technologies": "React, HTML, CSS"
     },
     {
         "id": 4,
-        "title": "Social Media Dashboard",
-        "module": "Vue.js",
-        "description": "A social media analytics dashboard that allows users to monitor multiple social media accounts in one place. The dashboard provides real-time data visualization, showing user engagement metrics such as likes, comments, and shares. Users can track performance across different platforms and view historical data to identify trends. The dashboard is designed for simplicity and ease of use, providing a seamless experience across devices.",
-        "thumbnail": "images/cinema.jpg",
+        "title": "Home decor",
+        "module": "HTML",
+        "description": "An e-commerce application that provides users with the ability to browse products.",
+        "thumbnail": "images/home_decor.jpg",
         "date": "2023-09-20",
-        "technologies": "Vue.js, Tailwind CSS, Firebase"
+        "technologies": "HTML, CSS,"
     },
     {
         "id": 5,
-        "title": "Chat Application",
-        "module": "Socket.io",
-        "description": "A real-time chat application that allows users to communicate in private or public chat rooms. The app leverages WebSockets for instant message delivery, ensuring a smooth user experience with minimal delay. It also includes features such as typing indicators, message history, and user authentication. This project showcases real-time interaction using the Socket.io library in conjunction with Node.js.",
+        "title": "Movies",
+        "module": "HTML",
+        "description": "An e-commerce application that provides users with the ability to browse movies available on cinema.",
         "thumbnail": "images/movies.jpg",
-        "date": "2023-08-10",
-        "technologies": "Node.js, Socket.io, Express"
+        "date": "2024-01-10",
+        "technologies": "HTML, CSS"
     },
     {
         "id": 6,
-        "title": "Task Manager App",
-        "module": "Angular",
-        "description": "A task management application that helps teams organize, assign, and track the progress of tasks. Users can create projects, assign tasks to team members, set deadlines, and monitor the status of tasks in real time. The app includes various views such as Kanban, calendar, and list views, making it versatile for different workflows. It also supports notifications and reminders to keep users updated on task deadlines.",
+        "title": "Pet Store",
+        "module": "Python",
+        "description": "A task management application that helps teams organize, a project using classes, dict, list, exception, loops etc.",
         "thumbnail": "images/python_project.jpg",
-        "date": "2023-07-05",
-        "technologies": "Angular, Material UI, Node.js"
+        "date": "2023-10-28",
+        "technologies": "visual studio code"
     },
     {
         "id": 7,
-        "title": "Fitness Tracker",
-        "module": "React Native",
-        "description": "A mobile fitness tracking app that allows users to monitor their daily physical activities, such as steps taken, distance covered, and calories burned. The app also includes features for tracking workouts, setting goals, and monitoring progress over time. It integrates with device sensors to provide accurate fitness data and offers a user-friendly interface for customizing fitness goals and viewing detailed reports.",
+        "title": "Company.db",
+        "module": "Data Base",
+        "description": "developing a data base sctructure, base on a company with it's employees, in various categories, such as: staffs, and managers.",
         "thumbnail": "images/company.jpg",
-        "date": "2023-06-15",
-        "technologies": "React Native, Expo, Firebase"
+        "date": "2023-12-15",
+        "technologies": "sqlite3"
     },
     {
         "id": 8,
-        "title": "Blog Platform",
-        "module": "WordPress",
-        "description": "A customizable blog platform built with WordPress. It features an intuitive content management system (CMS) that allows users to create, edit, and manage blog posts and pages. The platform includes built-in SEO tools, social media integration, and a responsive design that ensures a seamless experience on both desktop and mobile devices. The project also includes customization options for themes and plugins, making it versatile for different user needs.",
+        "title": "Hospital.db",
+        "module": "Data Base",
+        "description": "developing a data base sctructure, base on a hospital with it's list of doctors and patients applying the one to many rule on identifying each patient's doctor.",
         "thumbnail": "images/hospital.jpg",
-        "date": "2023-05-22",
-        "technologies": "PHP, WordPress, MySQL"
+        "date": "2023-11-22",
+        "technologies": "sqlite3"
     }
    
 ]
