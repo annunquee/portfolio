@@ -1,31 +1,55 @@
+
+/* Reset default padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color:palegreen;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, sans-serif;
+    background-color:tea #539d445d;
 }
 
-nav {
-    list-style-type: none;
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-ul {
-    list-style: none;
+header {
+    background-color: burlywood;
+    color: rgb(255, 248, 220);
+    padding: 10px 0;
+}
+.nav-logo a {
+font-size: 24px;
+color: cornsilk;
+text-decoration: none;
 }
 
-nav ul {
-    list-style-type: none;
+.nav-menu {
+display: flex;
+align-items: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 100px;
+.nav-menu ul {
+list-style-type: none;
+display: flex;
+gap: 20px; /* Gap for better spacing */
 }
 
-nav ul li a {
-    text-decoration: none;
+.nav-menu ul li a {
+text-decoration: none;
+color: cornsilk;
+padding: 10px 15px;
+border-radius: 8px;
+transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-a:hover {
-    color:burlywood;
+.nav-menu ul li a:hover {
+background-color: rgb(169, 246, 220);
+color: cornsilk;
 }
 
 .gallery-container {
@@ -64,7 +88,7 @@ button {
     top: 50%;
     transform: translateY(-50%);
     background-color: saddlebrown;
-    color:lemonchiffon;
+    color:hsl(17, 81%, 79%);
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -97,7 +121,7 @@ button {
     padding: 30px; /* Increased padding for better spacing */
     margin: 30px 0; /* More margin to separate from surrounding elements */
     border-radius: 12px; /* Smoother corners for a more modern look */
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Stronger shadow for depth */
+    box-shadow: 0 8px 24px rgba(38, 6, 6, 0.15); /* Stronger shadow for depth */
     transition: transform 0.2s ease-in-out; /* Add hover effect */
 }
 
@@ -115,22 +139,22 @@ button {
 .project-details h2 {
     font-size: 2em; /* Make the heading larger for emphasis */
     margin-bottom: 15px;
-    color: #333; /* Darker text color for the heading */
+    color: rgba(115, 70, 12, 0.841); /* Darker text color for the heading */
 }
 
 .project-details p {
     margin: 12px 0; /* Slightly increased margin */
     font-size: 1.15em; /* Slightly larger text for readability */
     line-height: 1.6; /* Improved line spacing for readability */
-    color: #666; /* Softer text color */
+    color:rgb(164, 120, 63); /* Softer text color */
 }
 
 .project-details p strong {
-    color: #444; /* Darker, more pronounced color for emphasized text */
+    color:rgb(57, 38, 9); /* Darker, more pronounced color for emphasized text */
 }
 
 .project-details a {
-    color: #007BFF; /* Styled links with blue */
+    color: (67, 15, 21); /* Styled links with  */
     text-decoration: none; /* No underline by default */
     font-weight: bold;
 }
@@ -236,7 +260,7 @@ button {
 
 .skill-link {
     text-decoration: none;
-    color: #007BFF;
+    color: 21, ;
     font-weight: bold;
 }
 
@@ -252,9 +276,67 @@ button {
     display: inline-block;
     margin-top: 20px;
     text-decoration: none;
-    color: #007BFF;
+    color: #00ffff70;
 }
 
 .back-link:hover {
     text-decoration: underline;
 }
+
+/* Hamburger menu button for mobile */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+    transition: all 0.3s;
+}
+
+/* Active state for hamburger */
+.hamburger.active div:nth-child(1) {
+    transform: rotate(45deg) translateY(6px);
+}
+
+.hamburger.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active div:nth-child(3) {
+    transform: rotate(-45deg) translateY(-6px);
+}
+
+/* Mobile-friendly styles */
+@media (max-width: 768px) {
+    .horizontal-nav {
+        flex-direction: column;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        width: 100%;
+        display: none; /* Hide menu on mobile initially */
+    }
+
+    .nav-menu ul.show {
+        display: flex; /* Show when toggled */
+    }
+
+    .nav-menu ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav-logo, .nav-menu {
+        text-align: center;
+    }
+
+    /* Show the hamburger menu on mobile */
+    .hamburger {
+        display: flex;
+    }     
