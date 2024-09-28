@@ -1,7 +1,7 @@
 # portfolio
 A fully functional portfolio website. displaying all there's to know about my projects, career and skill,
 
-**Object Oriented Software Design**
+# Object Oriented Software Design
 This project is implemented with two Classes - Skill and Project 
 These two classes are implemented in models.py
 For this assignment the skills and the projects are in json files. However, in future assignments I will connect to a database. 
