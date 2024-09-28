@@ -4,7 +4,7 @@
         "title": "Portfolio Website",
         "module": "Flask",
         "description": "A portfolio website built with Flask and Jinja. This project showcases personal and professional achievements, including completed projects and skills. It features a responsive design and includes dynamic content rendered through Flask routes and templates. The site is designed to be easily updated with new projects and information using a backend admin interface.",
-        "thumbnail": "porfolio.jpeg",
+        "thumbnail": "images/portfolio.jpg",
         "date": "2024-09-09",
         "technologies": "Flask, HTML, CSS, JavaScript"
     },
@@ -12,10 +12,10 @@
         "id": 2,
         "title": "kids store",
         "module": "java script",
-        "description": "An e-commerce application that provides users with the ability to browse products, add items to the cart, and complete purchases using a secure payment gateway. The app also includes a comprehensive admin dashboard for managing products, orders, and customers. This project emphasizes security and scalability, allowing it to handle a growing user base while ensuring data protection and smooth transaction processing.",
+        "description": "An e-commerce application that provides users with the ability to browse products.",
         "thumbnail": "images/kids_store.jpg",
         "date": "2024-07-15",
-        "technologies": "React, JavaScript, HTML, CSS OpenWeather API"
+        "technologies": "React, JavaScript, HTML, CSS"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "description": "An e-commerce application that provides users with the ability to browse products.",
         "thumbnail": "images/home_decor.jpg",
         "date": "2023-09-20",
-        "technologies": "HTML, CSS,"
+        "technologies": "HTML, CSS"
     },
     {
         "id": 5,
